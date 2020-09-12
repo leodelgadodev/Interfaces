@@ -1,0 +1,237 @@
+:root {
+    --bg-grey: #242424;
+    --bg-darkgrey: #1a1a1a;
+    --bg-red: #b90e0e;
+    --bg-lightred: #dd1414;
+}
+
+.logo{
+    width: 30px; 
+    height: 30px; 
+}
+
+.search-svg{
+    width: 20px;
+    filter: opacity(.6);
+}
+
+.search-svg:hover{
+    filter: none;
+}
+
+.logout-btn{
+    padding-right: 20px;
+}
+
+.logout{
+    width: 30px;
+}
+
+.video-container{
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    height:100%;
+}
+
+.video-player{
+    width: 97%;
+    height: 85%;
+    position: absolute;
+}
+
+/* ############ HEADER ########### */
+
+.header {
+    background-color: var(--bg-red);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unqflix-logo {
+    width: 100px;
+    background-color: var(--bg-red);
+}
+
+.unqflix-logo:hover {
+    background-color: var(--bg-lightred);
+}
+
+.btn-logout {
+    font-weight: bolder;
+    font-size: 18px;
+    margin-right: 1em;
+}
+
+
+/* ############ LOGIN / REGISTER ########### */
+
+.unqflix-logo-modal {
+    width: 100px;
+    background-color: var(--bg-red);
+}
+
+.modal-header {
+    width: 100%;
+    background-color: var(--bg-red);
+    margin-bottom: 3em;
+    border: 0;
+}
+
+.form-item {
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.auth-container {    
+    background-color: var(--bg-grey);
+    width: 370px;
+    height: 500px;
+
+}
+
+.login-page, .register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.login-form, .register-form {
+    padding: 0 20px;
+}
+
+.btn-primary {
+    background-color: var(--bg-red) !important;
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: var(--bg-lightred) !important;
+}
+
+a {
+    color: #ff1414 !important; 
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+a:hover {
+    filter: none;
+    color: white !important;
+    text-decoration: none;
+}
+
+/* ############ GRID ########### */
+.grid-item {
+    margin: 0.3em;
+}
+
+
+
+/* ############ HOMEPAGE ########### */
+
+.media-poster-img {
+    width: 100px;
+    height: 150px;
+}
+
+.media-poster-img:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.media-carousel {
+    margin: 1.4em 0;
+}
+
+h2 {
+    color: white;
+    margin: 1em 0 1em 1em;
+    font-weight: bolder;
+}
+
+.media-scroll-elem {
+    display: block;
+    width: 100px;
+    min-width: 100px;
+    min-height: 150px;
+    height: 150px;
+    margin: 0 1em 1em 1em;
+    background-color: #be3b3b;
+}
+
+section {
+    max-width: 75%;
+    margin: auto;
+}
+
+.banner-carousel {
+    margin: auto;
+    margin-top: 1em;
+    max-width: 60%;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slick-slider img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.relative-container {
+    position: relative;
+}
+
+.img-text {
+    position: absolute;
+    bottom: 0px;
+    font-weight: bolder;
+    color: white;
+    background-color: var(--bg-darkgrey);
+    padding: 0.3em;
+}
+
+/* ############ MOVIEDISPLAY ########### */
+
+.mr-3{
+    padding: 20px;
+    width: 300px;
+
+}
+
+.mt-0{
+    padding: 20px;
+    color:white;
+}
+
+.media{
+    text-align: left;
+    padding: 20px;
+}
+
+table{
+    border: 2px solid var(--bg-red);
+}
+
+.row-season{
+    color: red;
+}
+
+.tab-header:hover {
+    background-color: var(--bg-grey);
+    color: var(--bg-lightred) !important;
+}
+
+.tab-header:active {
+    background-color: white;
+}
